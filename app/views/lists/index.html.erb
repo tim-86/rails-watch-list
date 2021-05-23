@@ -1,11 +1,12 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1485095329183-d0797cdc5676?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")>
   <div class="container">
     <h1>Movie Watch List</h1>
+    <p> Create Lists With Movies You Want To Watch</p>
   </div>
 </div>
 
-<div class="container m-3">
-  <h2> Add a new List here: <%= link_to '+', new_list_path %> </h2>
+<div class="container m-3 text-right">
+  <%= link_to 'Add a new List', new_list_path, class:"btn btn-primary" %>
 </div>
 
 
